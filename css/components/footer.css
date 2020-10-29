@@ -1,0 +1,32 @@
+.footer {
+  padding: 60px;
+  background-color: #BC513C;
+  margin: 0;
+  }
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer a {
+  color: 430E14;
+  font-size: 15px;
+}
+.footer a:hover {
+  color: #FEF2E9;
+}
+
+.bottom {
+    display: flex;
+  align-items: center;
+}
+.fab {
+    font-family: "Font Awesome 5 Brands";
+    color: white;
+  }
+.footer p{
+  color: #FEF2E9;
+  text-align: center;
+}

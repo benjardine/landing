@@ -1,0 +1,49 @@
+.banner {
+    background-image: url(../../images/pasta-landing.png);
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+  }
+
+.banner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+.banner h1 {
+  color: white;
+  text-shadow: black 0px 0px 10px;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 1px;
+  font-family: 'Cinzel', serif;
+}
+
+.banner p{
+  color: white;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-shadow: black 0px 0px 10px;
+  font-family: 'Cinzel', serif;
+  margin-bottom: 30px;
+}
+
+
+.btn-primary{
+  padding: 15px 30px;
+  background-color: #BC513C;
+  text-shadow: #F4BA25 0px 0px 10px;
+  color: #fff;
+  border-radius: 4px;
+  font-weight: lighter;
+  font-size: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.5);
+}
+
+.btn-primary:hover{
+  background-color:#F4BA25;
+  font-weight: bold;
+  font-size: 10px;
+}
